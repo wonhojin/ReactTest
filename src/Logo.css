@@ -1,0 +1,41 @@
+
+@media only screen and (min-width: 100px) {
+  .Logo{
+      position: absolute;
+      margin-top:155px;
+      margin-left:50%;
+      left:-245px;
+      font-size: 23pt;
+      font-family: "Arial Rounded MT";
+      letter-spacing: 10px;
+  
+  }
+  .header_Logo{
+      position: absolute;
+      margin-top: 6px;
+      margin-left: 30px;
+      font-size: 12pt;
+      letter-spacing: 2px;
+  }
+  }
+  @media only screen and (min-width: 1609px) {
+      .Logo{
+          position: absolute;
+          margin-top:80rem;
+          margin-left:50%;
+          left:-245px;
+          font-size: 23pt;
+          font-family: "Arial Rounded MT";
+          letter-spacing: 10px;
+      
+      }
+      .header_Logo{
+          position: absolute;
+          margin-top: 8px;
+          margin-left: 45px;
+          font-size: 15pt;
+          letter-spacing: 2px;
+      }
+  
+  }
+  

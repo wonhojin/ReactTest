@@ -1,0 +1,110 @@
+@media only screen and (min-width: 100px) {
+.main{
+    width:1520px;
+}
+.view_result_space{
+    position: relative;
+    width:1520px;
+    height:680px;
+    background:#f9f9f9;
+}
+.view_search_box{
+    position: relative;
+    width:100%;
+    height:60px;
+}
+.view_search_box .search_box{
+    position:absolute;
+    outline:0px;
+    width:450px;
+    height:35px;
+    border:1px solid rgb(175, 175, 175);
+    border-radius: 15px;
+    margin-top:15px;
+   margin-left:550px;
+    padding-left: 15px;   
+}
+.view_search_box .search_box:hover{
+    box-shadow:1.5px 1.5px 2px rgba(204, 204, 204, 0.9);
+}
+.view_search_box .search_button{
+    position: absolute;
+    background: white;
+    color: rgba(49,49,49,0.9);
+    outline:0px;
+    border:0px solid;
+    font-size: 11px;
+    margin-top: 18px;
+    margin-left: 960px;
+    border-radius: 15px;
+    width:50px;
+    height:35px;
+}
+.search_button:hover{
+    cursor: pointer;
+
+}
+.book_info_view{
+    position: relative;
+    margin-top:10px;
+}
+.back_prev_page{
+    position: absolute;
+    outline:0px;
+    font-size:12pt;
+    color:rgba(49,49,49,0.9);
+    background:transparent;
+    border:0px;
+    margin-left:48%;
+    margin-top:3px;
+    cursor:pointer;
+    height:45px;
+}
+}
+@media only screen and (min-width: 1609px) {
+    .main{
+        width:116.5rem;
+    }
+    .view_result_space{
+        position: relative;
+        width:116.5rem;
+        height:95rem;
+        background:#f9f9f9;
+    }
+    .view_search_box{
+        position: relative;
+        width:116.5rem;
+        height:60px;
+    }
+    .view_search_box .search_box{
+        position:absolute;
+        outline:0px;
+        width:450px;
+        height:35px;
+        border:1px solid rgb(175, 175, 175);
+        border-radius: 15px;
+        margin-top:15px;
+       margin-left:47rem;
+        padding-left: 15px;   
+    }
+    .view_search_box .search_box:hover{
+        box-shadow:1.5px 1.5px 2px rgba(204, 204, 204, 0.9);
+    }
+    .view_search_box .search_button{
+        position: absolute;
+        background: white;
+        color: rgba(49,49,49,0.9);
+        outline:0px;
+        border:0px solid;
+        font-size: 11px;
+        margin-top: 17px;
+        margin-left: 72.5rem;
+        border-radius: 15px;
+        width:50px;
+        height:35px;
+    }
+    .search_button:hover{
+        cursor: pointer;
+    
+    }
+}

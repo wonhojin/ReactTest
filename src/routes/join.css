@@ -1,0 +1,178 @@
+@media only screen and (min-width: 100px) {
+  
+  #main{
+      background: #f0efef;
+      color:black;
+      position: absolute;
+      width:100%;
+      height:90%;
+  }
+  #join_main{
+      background: #f0efef;
+      color:black;
+      position: absolute;
+      width:100%;
+      height:90%;
+  }
+  
+  .Join_space{
+      position: absolute;
+      width:33%;
+      height:80%;
+      left:510px;
+      margin-top: 25px; 
+  }
+
+  .Join_space input::-webkit-input-placeholder { color: rgba(43, 41, 41, 0.7); }
+  
+  .Join_space h1{
+      position: absolute;
+      margin-left:180px;
+      margin-top: 90px;
+      font-size: 28pt;
+      letter-spacing: 5px;
+  
+  }
+  .J_id_box{
+      position: relative;
+      margin-left:90px;
+      margin-top:175px;
+      width:310px;
+      height:45px;
+      border-color: white;
+      border: 0px;
+      border-radius: 4px;
+      outline:0px;
+      background:rgb(255, 255, 255);
+      color:black;
+      box-shadow:1px 1px 3px rgba(255, 255, 255,0.8);
+      font-size: 11pt;
+      padding-left:15px;
+  }
+  .J_password_box{
+      position: relative;
+      margin-left: 90px;
+      margin-top: 25px;
+      width:310px;
+      height:45px;
+      border-color: white;
+      border: 0px;
+      border-radius: 4px;
+      outline:0px;
+      background:rgba(255, 255, 255);
+      color:black;
+      box-shadow:1px 1px 3px rgba(255, 255, 255,0.8);
+      font-size: 11pt;
+      padding-left:15px;
+  }
+  .J_Login_btn{
+      position: relative;
+      margin-left: 318px;
+      margin-top: 30px;
+      width:100px;
+      height:38px;
+      border:0px;
+      border-radius: 4px;
+      outline:0px;
+      background-color: rgb(0, 0, 0);
+      color:white;
+      box-shadow:1px 1px 1px rgb(146, 142, 142);
+      font-size: 12px;
+      font-weight: Bold;
+      letter-spacing: 2px;
+      cursor: pointer;
+  }
+  .J_Login_btn:hover{
+      box-shadow:2px 2px 1px rgba(161, 161, 161, 0.8) inset;
+  
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1609px) {
+
+  
+    
+  #main{
+      background: #f0efef;
+      color:black;
+      position: absolute;
+      width:116.5rem;
+      height:45rem;
+  }
+  #join_main{
+      background: #f0efef;
+      color:black;
+      position: absolute;
+      width:116.5rem;
+      height:95rem;
+  }
+  
+  .Join_space{
+      position: absolute;
+      width:33%;
+      height:80%;
+      left:42rem;
+      margin-top: 18rem; 
+  }
+  .Join_space h1{
+    position: absolute;
+    margin-left:13rem;
+    margin-top: 90px;
+    font-size: 30pt;
+    letter-spacing: 5px;
+  }
+
+  .J_id_box{
+    position: relative;
+    margin-left:90px;
+    margin-top:175px;
+    width:380px;
+    height:45px;
+    border-color: white;
+    border: 0px;
+    border-radius: 4px;
+    outline:0px;
+    background:rgb(255, 255, 255);
+    color:black;
+    box-shadow:1px 1px 3px rgba(255, 255, 255,0.8);
+    font-size: 11pt;
+    padding-left:15px;
+}
+.J_password_box{
+    position: relative;
+    margin-left: 90px;
+    margin-top: 25px;
+    width:380px;
+    height:45px;
+    border-color: white;
+    border: 0px;
+    border-radius: 4px;
+    outline:0px;
+    background:rgba(255, 255, 255);
+    color:black;
+    box-shadow:1px 1px 3px rgba(255, 255, 255,0.8);
+    font-size: 11pt;
+    padding-left:15px;
+}
+.J_Login_btn{
+    position: relative;
+    margin-left: 24rem;
+    margin-top: 30px;
+    width:100px;
+    height:38px;
+    border:0px;
+    border-radius: 4px;
+    outline:0px;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    box-shadow:1px 1px 1px rgb(146, 142, 142);
+    font-size: 12px;
+    font-weight: Bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+}
+
+
+

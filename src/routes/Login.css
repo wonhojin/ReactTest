@@ -1,0 +1,175 @@
+@media only screen and (min-width: 100px) {
+
+  input::-webkit-input-placeholder { color: rgb(223, 223, 223,0.7); }
+  .Log_space input::-webkit-input-placeholder { color: rgba(43, 41, 41, 0.7); }
+  
+  
+  .L_id_box{
+      position: relative;
+      margin-left:145px;
+      margin-top:200px;
+      width:320px;
+      height:53px;
+      border: 0px;
+      border-radius: 4px;
+      outline:0px;
+      background:rgba(255, 255, 255);
+      color:black;
+      
+      font-size: 11pt;
+      padding-left:15px;
+  }
+  .L_password_box{
+      position: relative;
+      margin-left: 145px;
+      margin-top: 25px;
+      width:320px;
+      height:53px;
+      border:0px;
+      border-radius: 4px;
+      outline:0px;
+      background:rgb(255, 255, 255);
+      color:black;
+      box-shadow:1px 1px 1px rgba(255, 255, 255);
+      font-size: 11pt;
+      padding-left:15px;
+  }
+  .L_Login_btn{
+      position: relative;
+      margin-left: 146px;
+      margin-top: 30px;
+      width:336px;
+      height:55px;
+      border:0px;
+      border-radius: 4px;
+      outline:0px;
+      background-color: black;
+      color:white;
+      box-shadow:1px 1px 3px rgba(255, 255, 255,0.8);
+      font-size: 17px;
+      font-weight: Bold;
+      letter-spacing: 2px;
+      cursor: pointer;
+  }
+  .L_Login_btn:hover{
+      box-shadow:2px 2px 0px rgba(128, 124, 124, 0.8) inset;
+  
+  }
+  .Log_space h1{
+      position: absolute;
+      margin-left:250px;
+      margin-top: 110px;
+      font-size: 40pt;
+      letter-spacing: 4px;
+  }
+  .Log_space{
+      margin-top: 20px;
+      position: absolute;
+      width:40%;
+      height:600px;
+      left:450px;
+  
+  }
+  
+  
+  
+  #find_id{
+      color:black;
+      position: absolute;
+      margin-top: 15px;
+      margin-left: 335px;
+      font-size: 9pt;
+      
+  }
+  #find_password{
+      color: black;
+      position: absolute;
+      margin-top: 15px;
+      margin-left: 410px;
+      font-size: 9pt;
+  }
+  #entry{
+      position: absolute;
+      color:black;
+      margin-top: 15px;
+      margin-left: 149px;
+      font-size: 12px;
+  }
+  }
+  
+  @media only screen and (min-width: 1609px) {
+      
+      #main{
+          background: #f0efef;
+          color:black;
+          position: absolute;
+          width:116.5rem;
+          height:45rem;
+      }
+  
+      .Log_space{
+          margin-top: 15rem;
+          position: absolute;
+          width:40%;
+          height:600px;
+          left:38rem;
+      
+      }
+      .Log_space h1{
+        position: absolute;
+        margin-left:17rem;
+        margin-top: 90px;
+        font-size: 40pt;
+        letter-spacing: 4px;
+    }
+
+      .L_id_box{
+        position: relative;
+        margin-left:145px;
+        margin-top:200px;
+        width:380px;
+
+    }
+    .L_password_box{
+        position: relative;
+        margin-left: 145px;
+        margin-top: 25px;
+        width:380px;
+
+    }
+    .L_Login_btn{
+        position: relative;
+        margin-left: 146px;
+        margin-top: 30px;
+        width:398px;
+ 
+    }
+
+    #find_id{
+        color:black;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 24rem;
+        font-size: 9pt;
+        
+    }
+    #find_password{
+        color: black;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 29rem;
+        font-size: 9pt;
+    }
+    #entry{
+        position: absolute;
+        color:black;
+        margin-top: 15px;
+        margin-left: 10rem;
+        font-size: 12px;
+    }
+
+
+  
+  
+  }
+  

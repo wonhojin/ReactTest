@@ -1,0 +1,456 @@
+@media only screen and (min-width: 100px) {
+
+    #create_file{
+        position: relative;
+        outline:0px;
+        border:1.5px outset rgb(212, 212, 212);
+        background:transparent;
+        width:100px;
+        height:25px;
+        font-size: 7pt;
+        cursor: pointer;
+        margin-top: 15px;
+        left:55px;
+        left:80px;
+    }
+    #remove{
+        position: relative;
+        outline:0px;
+        border:1.5px outset rgb(212, 212, 212);
+        background:transparent;
+        width:100px;
+        height:25px;
+        font-size: 7pt;
+        cursor: pointer;
+        margin-top: 15px;
+        left: 90px;
+    }
+    .trash{
+        position: absolute;
+        outline:0px;
+        cursor: pointer;
+        width:30px;
+        height:30px;
+        right:5px;
+        top:60px;
+        border:0px;
+        background:transparent;
+
+    }
+    #trash{
+        position: absolute;
+        outline:0px;
+        cursor: pointer;
+        width:15px;
+        height:15px;
+        right:3px;
+        top:0px;
+        border:0px;
+        background:transparent;
+
+    }
+    #create_file:hover, #remove:hover{
+        background: rgb(235, 233, 233);
+    }
+    #title{
+        margin-top: 4px;
+        position: relative;
+        width:90%;
+        height:8%;
+        border:0px solid rgb(146, 145, 145);
+        background: rgb(241, 241, 241);
+        letter-spacing: 2px;
+        left:70px;
+    }
+
+    #My_field{
+        color:black;
+        position: absolute;
+        background:rgb(255, 255, 255);
+        width:1520px;
+        height:700px;
+    }
+    #My_field h1{
+        position: absolute;;
+        left:50px;
+        top: 15px;
+        font-size: 14pt;
+    }
+    #mypage_searchbox{
+        position: relative;
+        width:100%;
+        height:50px;
+    }
+    
+    #mypage_searchbox .search_box{
+        position:absolute;
+        outline:0px;
+        width:320px;
+        height:27px;
+        border:1px solid rgb(175, 175, 175);
+        border-radius: 15px;
+        margin-top:11px;
+        right:90px;
+        padding-left: 15px;   
+        background:rgba(228, 227, 227,0.2);
+    }
+    #mypage_searchbox .search_box:hover{
+        box-shadow:1.5px 1.5px 2px rgba(204, 204, 204, 0.9);
+    }
+    #mypage_searchbox .search_button{
+        position: absolute;
+        background:rgba(228, 227, 227,0.1);
+        color: rgba(49,49,49,0.9);
+        outline:0px;
+        font-size: 8px;
+        margin-top: 12px;
+        right:93px;
+        border:0px solid;
+        border-radius: 15px;
+        width:35px;
+        height:25px;
+    }
+    .search_button:hover{
+        cursor: pointer;
+    
+    }
+
+    .folder_table{
+        display:-webkit-box;
+        display: -ms-flexbox;
+        flex: 1;
+        width:918px;
+        overflow: auto;
+        -webkit-box-flex: 1;
+        -webkit-box-orient: vertical;
+        flex-direction: column;
+        border-collapse: collapse;
+        border-right:0px; border-left: 0px;
+        margin-top:12px;
+        margin-left:70px;
+    }
+    .list_table{
+        display:-webkit-box;
+        display: -ms-flexbox;
+        flex: 1;
+        width:451px;
+        overflow: auto;
+        -webkit-box-flex: 1;
+        -webkit-box-orient: vertical;
+        flex-direction: column;
+        border-collapse: collapse;
+        border-right:0px; border-left: 0px;
+    }
+
+    #t_head{
+        font-size: 9pt;
+        background: rgb(223, 223, 223);
+        height:30px;
+        letter-spacing: 2px;
+        border-top:1px solid rgb(199, 199, 199)
+    }
+    #t_header_content{
+        width:35%;
+    }
+    .folder_tbody{
+        display:-webkit-box;
+        display: -ms-flexbox;
+        flex: 1;
+        width:100%;
+        overflow: auto;
+        border-collapse: collapse;
+        -webkit-box-flex: 1;
+        -webkit-box-orient: vertical;
+        flex-direction: column;
+        border-top:2px solid rgb(134, 134, 134);
+        font-size: 10pt;
+        color:rgb(49, 49, 49);
+        cursor: pointer;
+        
+    }
+    .folder_tbody tr{border-top:1px solid rgb(97, 97, 97); border-bottom:1px solid rgb(175, 175, 175); }
+    .folder_tbody tr:hover{
+        background: rgba(247, 247, 247, 0.9);
+    }
+   
+    .folder_tbody th{
+        height:100px;
+    }
+    .folder_tbody p{
+        font-size: 8pt;
+        margin-top:2px;
+    }
+
+    .list_tbody{
+        display:-webkit-box;
+        display: -ms-flexbox;
+        flex: 1;
+        width:100%;
+        overflow: auto;
+        border-collapse: collapse;
+        -webkit-box-flex: 1;
+        -webkit-box-orient: vertical;
+        flex-direction: column;
+        border-top:1px solid rgb(134, 134, 134);
+        font-size: 8pt;
+        color:rgb(49, 49, 49);
+        cursor: pointer;
+        
+    }
+    .list_tbody tr{border-top:1px solid rgb(97, 97, 97);
+         border-bottom:1px solid rgb(138, 138, 138);
+         background:rgba(133, 133, 133, 0.2); 
+        }
+    .list_tbody tr:hover{
+        background: rgba(247, 247, 247, 0.9);
+    }
+   
+    .list_tbody th{
+        height:30px;
+    }
+
+
+    #number{
+        font-size: 20pt;
+        font-family: sans-serif;
+        color: rgb(128, 128, 128);
+    }
+    #index_table{
+        position: relative;
+        width:100%;
+        height:100%;
+        display: flex;
+    }
+    #table_btn{
+        position: relative;
+        width:70%;
+    }
+    #folder_index{
+        position: relative;
+        width:65%;
+        
+    }
+    #file_index{
+        position: relative;
+        width:450px;
+        border-left:1.5px solid rgb(202, 202, 202);
+    }
+    #list_header{
+        font-size: 7pt;
+        background: rgb(245, 245, 245);
+        height:26px;
+        letter-spacing: 2px;
+        border-top:1px solid rgb(199, 199, 199);
+    }
+    .plus{
+        border:1px solid;
+        border-radius: 50%;
+        font-weight: bold;
+    }
+}
+@media only screen and (min-width: 1609px) {
+    
+    #create_file{
+        position: relative;
+        outline:0px;
+        border:1.5px outset rgb(212, 212, 212);
+        background:transparent;
+        width:100px;
+        height:25px;
+        font-size: 7pt;
+        cursor: pointer;
+        margin-top: 15px;
+        left:7rem;
+    }
+    #remove{
+        position: relative;
+        outline:0px;
+        border:1.5px outset rgb(212, 212, 212);
+        background:transparent;
+        width:100px;
+        height:25px;
+        font-size: 7pt;
+        cursor: pointer;
+        margin-top: 15px;
+        left: 8rem;
+    }
+    #create_file:hover, #remove:hover{
+        background: rgb(235, 233, 233);
+    }
+    #title{
+        margin-top: 4px;
+        position: relative;
+        width:90%;
+        height:5%;
+        border:0px solid rgb(146, 145, 145);
+        background: rgb(241, 241, 241);
+        letter-spacing: 2px;
+        left:6rem;
+    }
+
+    #My_field{
+        color:black;
+        position: absolute;
+        background:rgb(255, 255, 255);
+        width:116.5rem;
+        height:95rem;
+    }
+    #My_field h1{
+        position: absolute;;
+        left:50px;
+        top: 1.7rem;
+        font-size: 15pt;
+    }
+    #mypage_searchbox{
+        position: relative;
+        width:116.5rem;
+        height:60px;
+    }
+    
+    #mypage_searchbox .search_box{
+        position:absolute;
+        outline:0px;
+        width:320px;
+        height:27px;
+        border:1px solid rgb(175, 175, 175);
+        border-radius: 15px;
+        margin-top:16px;
+        right:5rem;
+        padding-left: 15px;   
+        background:rgba(228, 227, 227,0.2);
+    }
+    #mypage_searchbox .search_box:hover{
+        box-shadow:1.5px 1.5px 2px rgba(204, 204, 204, 0.9);
+    }
+    #mypage_searchbox .search_button{
+        position: absolute;
+        background:rgba(228, 227, 227,0.1);
+        color: rgba(49,49,49,0.9);
+        outline:0px;
+        font-size: 8px;
+        margin-top: 18px;
+        right:5.5rem;
+        border:0px solid;
+        border-radius: 15px;
+        width:35px;
+        height:25px;
+    }
+    .search_button:hover{
+        cursor: pointer;
+    
+    }
+    table{
+        display:-webkit-box;
+        display: -ms-flexbox;
+        flex: 1;
+        width:1141px;
+        overflow: auto;
+        -webkit-box-flex: 1;
+        -webkit-box-orient: vertical;
+        flex-direction: column;
+        border-collapse: collapse;
+        
+        margin-top:18px;
+        margin-left:70px;
+    }
+
+    #t_head{
+        font-size: 9pt;
+        background: rgb(223, 223, 223);
+        height:30px;
+        letter-spacing: 2px;
+    }
+    #t_header_content{
+        width:35%;
+    }
+    .trash{
+        position: absolute;
+        outline:0px;
+        cursor: pointer;
+        width:30px;
+        height:30px;
+        right:8px;
+        top:66px;
+        border:0px;
+        background:transparent;
+
+    }
+    tbody{
+        display:-webkit-box;
+        display: -ms-flexbox;
+        flex: 1;
+        width:116.5rem;
+        overflow: auto;
+        -webkit-box-flex: 1;
+        -webkit-box-orient: vertical;
+        flex-direction: column;
+        border-collapse: collapse;
+        border:1px solid rgb(77, 77, 77);
+        border-right:0px; border-left: 0px;
+        font-size: 10pt;
+        color:rgb(49, 49, 49);
+       
+        
+    }
+    tbody tr{border:1px solid rgb(175, 175, 175); border-left:0px; border-right:0px; border-top: rgb(77, 77, 77);}
+    tbody tr:hover{
+        background: rgba(247, 247, 247, 0.9);
+    }
+   
+    tbody th{
+        height:100px;
+    }
+    tbody p{
+        font-size: 8pt;
+        margin-top:2px;
+    }
+    #number{
+        font-size: 20pt;
+        font-family: sans-serif;
+        color: rgb(128, 128, 128);
+    }
+    #index_table{
+        position: relative;
+        width:116.5rem;
+        height:61rem;
+        display: flex;
+    }
+    #table_btn{
+        position: relative;
+        width:70%;
+        margin-top:1rem;
+    }
+    #folder_index{
+        position: relative;
+        width:65%;
+        height:85rem;
+        
+    }
+    #file_index{
+        position: relative;
+        width:35%;
+        border-left:1.5px solid rgb(236, 236, 236);
+        height:85rem
+    }
+    .folder_table{
+        width:69.8rem;
+        margin-left:6rem;
+        margin-top:2rem;
+    }
+    .list_table{
+        width:35rem;
+        margin:0px;
+    }
+    .trash{
+        top:60px;
+    }
+
+    tbody.folder_tbody tr{
+        height:135px;
+    }
+
+    tbody.list_tbody tr{
+        height:38px;
+    }
+
+}
